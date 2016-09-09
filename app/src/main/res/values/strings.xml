@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">First_porject</string>
+    <string name="checkBox">记住密码</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="et_text0">请输入用户名</string>
+    <string name="password_text">记住密码</string>
+    <string name="login_text">登录</string>
+
+    <string name="tellapp_name">通讯大全</string>
+    <string name="action_settings">Settings</string>
+    <string name="tel_title">一站式号码服务平台</string>
+    <string name="btn_text_rocket">手机加速</string>
+    <string name="btn_text_file">文件管理</string>
+    <string name="btn_text_phone">手机检测</string>
+    <string name="btn_text_tel">通讯大全</string>
+    <string name="btn_text_soft">软件管理</string>
+    <string name="btn_text_sdclean">文件清理</string>
+    <string name="et_login_hint_password">请输入密码</string>
+    <string name="tv_lead">直接跳过</string>
+    <string name="space_sdcard">外置储存空间</string>
+    <string name="space_phone">手机内置空间</string>
+</resources>

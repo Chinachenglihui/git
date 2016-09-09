@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:src="@drawable/ic_launcher" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textSize="@dimen/actionbar_titlesize"
+        android:text="手机管家"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_left"
+        android:layout_toEndOf="@+id/iv_left" />
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_child_configs"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

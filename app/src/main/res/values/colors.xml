@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00FF00</color>
+    <color name="home_color0">#E8EBE8</color>
+    <color name="home_color1">#FFF</color>
+    <color name="home_color2">#d7d7d7</color>
+    <color name="battery_progressbar_bg">#ffff8c00</color>
+    <color name="battery_speed">#ff00aa00</color>
+    <color name="piechar_phone">#FF000099</color>
+    <color name="piechar_sdcard">#FF00AA00</color>
+    <color name="transparent">#00bebebe</color>
+    <color name="piechar_base">#FFFF8C00</color>
+
+</resources>

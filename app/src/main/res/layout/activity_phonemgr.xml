@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/activity_toolbar"/>
+    <LinearLayout android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/ll_layout_battery"
+        android:background="@drawable/item_button"
+        android:padding="20.0dip" android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/phonemgr_height">
+        <ProgressBar android:id="@+id/pb_battery"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/phonemgr_battery_height"
+            android:max="100"
+            android:progress="80"
+            android:progressDrawable="@drawable/progressbar_battery"
+            android:layout_weight="1.0" style="?android:attr/progressBarStyleHorizontal" />
+        <View android:background="@color/battery_progressbar_bg"
+            android:layout_width="10.0dip" android:layout_height="60.0dip"
+            android:layout_weight="0.0" />
+        <TextView
+            android:textColor="@color/battery_speed"
+            android:id="@+id/tv_battery"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text="80%"
+            android:layout_weight="0.0" />
+    </LinearLayout>
+    <include layout="@layout/layout_listview" />
+</LinearLayout>

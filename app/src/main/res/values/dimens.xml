@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="phonemgr_height">160dp</dimen>
+    <dimen name="phonemgr_battery_height">100dp</dimen>
+    <dimen name="tel_item_height">60dp</dimen>
+    <dimen name="icon_width">42dp</dimen>
+    <dimen name="actionbar_titlesize">24sp</dimen>
+    <dimen name="softmgr_piechar_icon_width">10dp</dimen>
+    <dimen name="softmgr_piechar_icon_height">10dp</dimen>
+</resources>

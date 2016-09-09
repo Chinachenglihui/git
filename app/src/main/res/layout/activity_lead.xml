@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LeadActivity">
+    <android.support.v4.view.ViewPager
+        android:layout_centerInParent="true"
+        android:id="@+id/vp_lead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="false"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+
+            android:id="@+id/iv_lead1"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@mipmap/adware_style_banner"
+            android:id="@+id/iv_lead2"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@mipmap/adware_style_creditswall"
+            android:id="@+id/iv_lead3"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_lead2"
+        android:text="@string/tv_lead"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/item_button" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:paddingRight="20.0dip" android:paddingBottom="5.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/iv_phonemgr_icon"
+        android:background="@drawable/notification_information_progress_green"
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:src="@drawable/setting_info_icon_version"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <TextView android:id="@+id/tv_phonemgr_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.0dip"
+        android:text="TextView"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/iv_phonemgr_icon"
+        android:layout_alignTop="@id/iv_phonemgr_icon"
+        android:layout_alignParentTop="true" />
+    <TextView android:id="@+id/tv_phonemgr_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.0dip"
+        android:text="TextView"
+        android:singleLine="true"
+        android:layout_toRightOf="@id/iv_phonemgr_icon"
+        android:layout_alignBottom="@id/iv_phonemgr_icon" />
+</RelativeLayout>
